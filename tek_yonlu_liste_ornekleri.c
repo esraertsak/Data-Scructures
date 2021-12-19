@@ -1,4 +1,4 @@
-/*Öðrenci bilgilerini saklamak için c programý*/
+/*Ã–Ã°renci bilgilerini saklamak iÃ§in c programÃ½*/
 
 #include<stdio.h>
 struct student
@@ -7,22 +7,26 @@ struct student
 	int roll;
 	float marks;
 } s;
+
 int main()
 {
 	printf("Enter information:\n");
 	printf("Enter name: ");
 	scanf("%s", s.name);
+	
 	printf("Enter roll number: ");
 	scanf("%d",&s.roll);
+	
 	printf("Enter marks: ");
 	scanf("%f", &s.marks);
+	
 	printf("Displaying Information:\n");
 	printf("Name: ");
 	puts(s.name);
+	
 	printf("Roll number: %d\n", s.roll);
 	printf("Marks: %.1f\n", s.marks);
-	return 0;
-	
+	return 0;	
 }
-// C yapýlarý kullanarak iki mesafe toplamýný bulma programý
+
 
